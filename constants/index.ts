@@ -6,22 +6,22 @@ export const sidebarLinks = [
   },
   {
     label: "Upcoming",
-    route: "/Upcoming",
+    route: "/upcoming",
     imgUrl: "/icons/Upcoming.svg",
   },
   {
     label: "Previous",
-    route: "/Previous",
+    route: "/previous",
     imgUrl: "/icons/Previous.svg",
   },
   {
     label: "Recording",
-    route: "/Recording",
+    route: "/recording",
     imgUrl: "/icons/recordings.svg",
   },
   {
     label: "Personal",
-    route: "/Personal",
+    route: "/personal",
     imgUrl: "/icons/add-personal.svg",
   },
 ];
