@@ -1,12 +1,11 @@
-import React, { Children } from "react";
+import StreamVideoProvider from "@/providers/StreamClientProviders";
+import React, { ReactNode } from "react";
 
-const layout = ({ children }: { children: React.ReactNode }) => {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
-      Navbar{children}
-      Footer
-    </div>
+    <main>
+      <StreamVideoProvider>{children}</StreamVideoProvider>
+    </main>
   );
 };
-
-export default layout;
+export default RootLayout;
