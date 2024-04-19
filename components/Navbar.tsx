@@ -16,7 +16,7 @@ function Navbar() {
           className="max-sm:size-10"
         />
         <p className="font-extrabold text-[26px] text-white max-sm:hidden">
-          Yoom
+          Loom
         </p>
       </Link>
       <div className="flex flex-between gap-5">
